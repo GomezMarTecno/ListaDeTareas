@@ -1,0 +1,64 @@
+body{
+    zoom:1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(174, 147, 118);
+    flex-direction: column-reverse;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+h1{
+    color: rgb(67, 49, 30);
+}
+input{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    border: none;
+    padding: 10px;
+    border-radius: 1.5rem;
+    color: rgb(67, 49, 30);
+    background-color: rgb(199, 170, 119)
+}
+input:focus {
+    border: rgb(67, 49, 30);
+    color: rgb(87, 68, 48);
+}
+
+
+button{
+    color: rgb(199, 170, 119);
+    background-color: rgb(87, 68, 48);
+    border: none;
+    padding: 5px;
+    border-radius: 1.5rem;
+}
+
+.btn-add:hover {
+    background-color: rgb(199, 170, 119);
+    color:rgb(67, 49, 30);
+    cursor: pointer;
+}
+
+ul {
+    margin-top: 7px;
+    padding: 0;
+    margin: 3px;
+    list-style: none;
+    text-align: start;
+}
+
+ul li{
+    justify-content: space-between;
+    display: flex;
+    border-radius: 1.5rem 0;
+    background-color: rgba(160, 112, 66, 0.677);
+    padding: 3px 10px 3px 9px;
+    margin: 3px;
+}
+
+.btn-delete:hover {
+    background-color: rgb(199, 170, 119);
+    color:rgb(67, 49, 30);
+    cursor: pointer;
+}
